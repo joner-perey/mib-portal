@@ -51,7 +51,7 @@ function Home() {
                     <h1>Internals Apps</h1>
                 </Typography>
                 <Box sx={{ p: '2% 18%', color: '#333', display: 'flex', flexDirection: 'row', gap: 3 }}>
-                    <Link href="https://www.example.com" color="inherit" underline="none" sx={{
+                    <Link href="https://www.mibportal.com/eyeball" color="inherit" underline="none" sx={{
                         display: 'block',
                         width: '35%',
                     }}>
@@ -88,7 +88,7 @@ function Home() {
                             </Box>
                         </Box>
                     </Link>
-                    <Link href="https://www.example.com" color="inherit" underline="none" sx={{
+                    <Link href="https://www.mibportal.com/cms" color="inherit" underline="none" sx={{
                         display: 'block',
                         width: '35%',
                     }}>
@@ -126,7 +126,7 @@ function Home() {
 
                         </Box>
                     </Link>
-                    <Link href="https://www.example.com" color="inherit" underline="none" sx={{
+                    <Link href="https://www.mibportal.com/hr" color="inherit" underline="none" sx={{
                         display: 'block',
                         width: '35%',
                     }}>
