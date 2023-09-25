@@ -30,10 +30,10 @@ function Home() {
                                 <a href='#' className='link'>Home</a>
                             </ListItem>
                             <ListItem>
-                                <a href='#' className='link'>Internals</a>
+                                <a href='#' className='link'>Internal</a>
                             </ListItem>
                             <ListItem>
-                                <a href='#' className='link'>Externals</a>
+                                <a href='#' className='link'>External</a>
                             </ListItem>
                         </List>
 
@@ -48,7 +48,7 @@ function Home() {
 
             <Box sx={{ height: '80vh', p: 5 }}>
                 <Typography sx={{ textAlign: 'center' }}>
-                    <h1>Internals Apps</h1>
+                    <h1>Internal Apps</h1>
                 </Typography>
                 <Box sx={{ p: '2% 18%', color: '#333', display: 'flex', flexDirection: 'row', gap: 3 }}>
                     <Link href="https://www.mibportal.com/eyeball" color="inherit" underline="none" sx={{
@@ -78,11 +78,11 @@ function Home() {
                             }}>
                                 <img src={EyeBallLogo} class="eyeball-logo" alt="" />
                             </Box>
-                            <Box sx={{ mt: 1 }}>
-                                <Typography variant='h3' sx={{ fontSize: '19px', fontWeight: 600, }}>
+                            <Box sx={{ mt: 1, display: 'flex', flexDirection: 'column' }}>
+                                <Typography variant='h3' sx={{ fontSize: '19px', fontWeight: 600, textAlign: 'center' }}>
                                     EyeballSales
                                 </Typography>
-                                <Typography variant='p' sx={{ fontSize: '16px', fontWeight: 400, color: 'gray', mt: 2 }}>
+                                <Typography variant='p' sx={{ fontSize: '16px', fontWeight: 400, color: 'gray', textAlign: 'center' }}>
                                     Sales and Todo system
                                 </Typography>
                             </Box>
@@ -115,11 +115,11 @@ function Home() {
                             }}>
                                 <img src={CmsLogo} class="cms-logo" alt="" />
                             </Box>
-                            <Box sx={{ mt: 1 }}>
-                                <Typography variant='h3' sx={{ fontSize: '19px', fontWeight: 600, mt: 4 }}>
+                            <Box sx={{ mt: 1, display: 'flex', flexDirection: 'column' }}>
+                                <Typography variant='h3' sx={{ fontSize: '19px', fontWeight: 600, mt: 4, textAlign: 'center' }}>
                                     Medishure CMS
                                 </Typography>
-                                <Typography variant='p' sx={{ fontSize: '16px', fontWeight: 400, color: 'gray', mt: 2 }}>
+                                <Typography variant='p' sx={{ fontSize: '16px', fontWeight: 400, color: 'gray', textAlign: 'center' }}>
                                     Commission management system
                                 </Typography>
                             </Box>
@@ -153,11 +153,11 @@ function Home() {
                             }}>
                                 <img src={HrLogo} class="hr-logo" alt="" />
                             </Box>
-                            <Box sx={{ mt: 1 }}>
-                                <Typography variant='h3' sx={{ fontSize: '19px', fontWeight: 600, mt: 3 }}>
+                            <Box sx={{ mt: 1, display: 'flex', flexDirection: 'column' }}>
+                                <Typography variant='h3' sx={{ fontSize: '19px', fontWeight: 600, mt: 3, textAlign: 'center' }}>
                                     Medishure HR
                                 </Typography>
-                                <Typography variant='p' sx={{ fontSize: '16px', fontWeight: 400, color: 'gray', mt: 2 }}>
+                                <Typography variant='p' sx={{ fontSize: '16px', fontWeight: 400, color: 'gray', textAlign: 'center' }}>
                                     HR management system
                                 </Typography>
                             </Box>
